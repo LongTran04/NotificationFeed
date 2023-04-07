@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52229FE729DFC5910091173E /* noti.json in Resources */ = {isa = PBXBuildFile; fileRef = 52229FE629DFC5910091173E /* noti.json */; };
 		5256EBD129D58389000C8A65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5256EBD029D58389000C8A65 /* AppDelegate.swift */; };
 		5256EBD329D58389000C8A65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5256EBD229D58389000C8A65 /* SceneDelegate.swift */; };
 		5256EBD529D58389000C8A65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5256EBD429D58389000C8A65 /* ViewController.swift */; };
@@ -16,10 +17,10 @@
 		5256EBE829D590F5000C8A65 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5256EBE629D590F5000C8A65 /* TableViewCell.swift */; };
 		5256EBE929D590F5000C8A65 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5256EBE729D590F5000C8A65 /* TableViewCell.xib */; };
 		5256EBEB29D67846000C8A65 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5256EBEA29D67846000C8A65 /* Model.swift */; };
-		5256EBED29D67BB8000C8A65 /* noti.json in Resources */ = {isa = PBXBuildFile; fileRef = 5256EBEC29D67BB8000C8A65 /* noti.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52229FE629DFC5910091173E /* noti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noti.json; sourceTree = SOURCE_ROOT; };
 		5256EBCD29D58389000C8A65 /* NotificationFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5256EBD029D58389000C8A65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5256EBD229D58389000C8A65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		5256EBE629D590F5000C8A65 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		5256EBE729D590F5000C8A65 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		5256EBEA29D67846000C8A65 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		5256EBEC29D67BB8000C8A65 /* noti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = noti.json; path = ../../../Downloads/noti.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		5256EBCF29D58389000C8A65 /* NotificationFeed */ = {
 			isa = PBXGroup;
 			children = (
-				5256EBEC29D67BB8000C8A65 /* noti.json */,
+				52229FE629DFC5910091173E /* noti.json */,
 				5256EBD029D58389000C8A65 /* AppDelegate.swift */,
 				5256EBD229D58389000C8A65 /* SceneDelegate.swift */,
 				5256EBD429D58389000C8A65 /* ViewController.swift */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5256EBDD29D5838A000C8A65 /* LaunchScreen.storyboard in Resources */,
-				5256EBED29D67BB8000C8A65 /* noti.json in Resources */,
+				52229FE729DFC5910091173E /* noti.json in Resources */,
 				5256EBE929D590F5000C8A65 /* TableViewCell.xib in Resources */,
 				5256EBDA29D5838A000C8A65 /* Assets.xcassets in Resources */,
 				5256EBD829D58389000C8A65 /* Main.storyboard in Resources */,

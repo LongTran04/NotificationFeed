@@ -28,6 +28,12 @@ class TableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
     
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        userImageView.image = nil
+        iconImageView.image = nil
+    }
+    
     func setupCell(data: Noti) {
         userImageView.load(urlString: data.image)
         let textLabel = data.message.text
